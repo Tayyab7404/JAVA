@@ -1,9 +1,11 @@
 // Demonstration of JTable:
 
 import javax.swing.*;    
+
 public class JTableDemo 
 {    
     JFrame f;    
+
     JTableDemo()
     {    
         f=new JFrame();    
@@ -21,7 +23,7 @@ public class JTableDemo
         JScrollPane sp=new JScrollPane(JT);    
 
         f.add(sp);          
-        f.setSize(400,400);    
+        f.setSize(400,200);    
         f.setVisible(true);    
     }     
 
@@ -29,4 +31,4 @@ public class JTableDemo
     {    
         new JTableDemo();    
     }    
-}  
+}

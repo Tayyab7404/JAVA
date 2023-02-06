@@ -50,6 +50,7 @@ public class ChoiceDemo extends Applet implements ItemListener
         msg = "Current OS: ";
         msg += os.getSelectedItem();
         g.drawString(msg,6,120);
+        
         msg = "Current Browser: ";
         msg += browser.getSelectedItem();
         g.drawString(msg,6,140);

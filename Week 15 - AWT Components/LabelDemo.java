@@ -7,7 +7,7 @@ import java.applet.*;
 
 public class LabelDemo extends Applet 
 {
-    Label one = new Label("One",Label.RIGHT);
+    Label one = new Label("One",Label.LEFT);
     Label two = new Label("Two",Label.CENTER);
     Label three = new Label("Three",Label.RIGHT);
 

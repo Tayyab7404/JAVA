@@ -36,7 +36,7 @@ public class JTreeDemo
 
         JTree jt=new JTree(Style);  
         f.add(jt);  
-        f.setSize(200,200);  
+        f.setSize(300,300);  
         f.setVisible(true);  
     }
 
